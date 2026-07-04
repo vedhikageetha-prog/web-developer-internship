@@ -1,6 +1,4 @@
-/* ==========================================
-   APPLY NOW BUTTON
-========================================== */
+
 
 function applyNow() {
     document.getElementById("apply").scrollIntoView({
@@ -8,9 +6,7 @@ function applyNow() {
     });
 }
 
-/* ==========================================
-   LEARN MORE BUTTON
-========================================== */
+
 
 function learnMore() {
     document.getElementById("overview").scrollIntoView({
@@ -18,9 +14,7 @@ function learnMore() {
     });
 }
 
-/* ==========================================
-   TYPING EFFECT
-========================================== */
+
 
 const typingText = document.getElementById("typing");
 
@@ -80,9 +74,6 @@ function typeEffect() {
 
 typeEffect();
 
-/* ==========================================
-   HAMBURGER MENU
-========================================== */
 
 const menuBtn = document.querySelector(".menu-btn");
 const navLinks = document.querySelector(".nav-links");
@@ -97,9 +88,6 @@ if (menuBtn) {
 
 }
 
-/* ==========================================
-   DARK MODE
-========================================== */
 
 const themeBtn = document.getElementById("themeToggle");
 
@@ -123,9 +111,6 @@ if (themeBtn) {
 
 }
 
-/* ==========================================
-   FAQ ACCORDION
-========================================== */
 
 const accordions = document.querySelectorAll(".accordion");
 
@@ -151,9 +136,7 @@ accordions.forEach((accordion) => {
 
 });
 
-/* ==========================================
-   ANIMATED COUNTERS
-========================================== */
+
 
 const counters = document.querySelectorAll(".counter");
 
@@ -205,9 +188,7 @@ counters.forEach(counter => {
 
 });
 
-/* ==========================================
-   APPLICATION FORM
-========================================== */
+
 
 const form = document.getElementById("internForm");
 
@@ -241,9 +222,7 @@ if (form) {
 
 }
 
-/* ==========================================
-   BACK TO TOP BUTTON
-========================================== */
+
 
 const topBtn = document.getElementById("topBtn");
 
@@ -277,9 +256,7 @@ if (topBtn) {
 
 }
 
-/* ==========================================
-   ACTIVE NAVIGATION
-========================================== */
+
 
 const sections = document.querySelectorAll("section");
 const navItems = document.querySelectorAll(".nav-links a");
@@ -314,9 +291,6 @@ window.addEventListener("scroll", () => {
 
 });
 
-/* ==========================================
-   SCROLL REVEAL ANIMATION
-========================================== */
 
 const revealElements = document.querySelectorAll("section");
 
@@ -350,9 +324,7 @@ revealElements.forEach(section => {
 
 });
 
-/* ==========================================
-   SMOOTH NAVIGATION LINKS
-========================================== */
+
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
@@ -382,9 +354,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 });
 
-/* ==========================================
-   PAGE LOADED
-========================================== */
 
 window.addEventListener("load", () => {
 
